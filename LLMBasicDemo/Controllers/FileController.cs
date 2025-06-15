@@ -58,6 +58,7 @@ namespace LLMBasic.Controllers
                 };
             }
 
+            //https://platform.openai.com/account/api-keys
             var apiKey = "";
             var skills = await ExtractSkillsAsync(text, apiKey);
 
