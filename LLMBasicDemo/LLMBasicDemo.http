@@ -1,0 +1,6 @@
+@LLMBasicDemo_HostAddress = http://localhost:5153
+
+GET {{LLMBasicDemo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
